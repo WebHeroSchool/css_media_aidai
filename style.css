@@ -1,0 +1,49 @@
+body {
+  background-color: azure;
+  color: rgb(89, 65, 156);
+  font-size: 20px;
+}
+
+@media (min-width: 0) and (max-width: 320px) {
+  body {
+    font-size: 10px;
+    color: green;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  body {
+    font-size: 15px;
+    color: red;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+  body {
+    font-size: 20px;
+    color: rgb(199, 72, 199);
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  body {
+    font-size: 25px;
+    color: rgb(226, 230, 28);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 30px;
+    color: rgb(44, 55, 207);
+    background-color: rosybrown;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1500px) {
+  body {
+    font-size: 50px;
+    color: rgb(224, 84, 19);
+    background-color: skyblue;
+  }
+}
